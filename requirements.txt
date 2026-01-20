@@ -43,3 +43,6 @@ Wikipedia
 
 # GEN-AI Libraries ===
 google-genai
+python-docx
+crawl4ai
+groq

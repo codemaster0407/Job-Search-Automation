@@ -2,3 +2,4 @@ api_key.json
 .env
 *.pyc
 __pycache__/
+*.csv

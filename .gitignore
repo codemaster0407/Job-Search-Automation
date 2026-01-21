@@ -3,3 +3,4 @@ api_key.json
 *.pyc
 __pycache__/
 *.csv
+jobs_csv/*

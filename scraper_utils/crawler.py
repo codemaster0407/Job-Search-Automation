@@ -23,5 +23,4 @@ def start_job_crawl(url):
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     result = loop.run_until_complete(main(url, max_depth=0))
-   
     return str(result)

@@ -22,6 +22,9 @@ def groq_api_call(prompt):
         stream=True,
         stop=None
     )
-
+    text = ''
     for chunk in completion:
-        print(chunk.choices[0].delta.content or "", end="")
+        # print(chunk.choices[0].delta.content or "", end="")
+        text += chunk.choices[0].delta.content or ""
+    # print('\n')
+    return text

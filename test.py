@@ -1,64 +1,21 @@
-# from job_search import ireland_jobs 
-# from utils import csv_creater 
+import json 
+from utils.doc_create import create_cv_docx
 
-# results = ireland_jobs.main()
-# csv_creater.create_day_csv(results)
-
-# from job_search.resume_customise import job_description_scrape
-# import pandas as pd 
-
-
-# df = pd.read_csv('jobs_csv/jobs_2026-01-16.csv')
-# job_description_scrape(df)
-
-from llm_call import groq_api
-import Config 
-import time 
-
-# groq_api.groq_api_call('Hello Groq')
-
-'''
-Docstring for test
-Finish Scraping for Trackr, Ireland jobs, and create CSVs for them. 
-Post that, use groq api to test the RPM and adjust the code with timeouts.
-Create .txt files for each job role 
-
-
-
-'''
-
-from scraper_utils.crawler import start_async_crawl, start_job_crawl
-job_links = start_async_crawl('https://www.irishjobs.ie/jobs/data-scientist?searchOrigin=membersarea&q=data%20scientist%20')
-
-
-
-
-
-
-
-with open(Config.MASTER_CV_PATH, 'r') as file:
-    master_cv_content = file.read()
-print(master_cv_content)
-
-def create_prompt(job_description, master_cv_content):
-
-    main_prompt = f'''
-    You are an expert job application assistant. Based on the following job description,
-    Job Description : {job_description}, create a tailored CV for the applicant. The applicant's master CV contains the following information: {master_cv_content}.
-    Please ensure the CV highlights relevant skills and experiences that align with the job requirements. 
-    The applicant follows the structure of work done and the achievements in a quantitve manner. (e.g., "Increased sales by 20%" rather than just "Responsible for sales").
-    Provide the final CV text output. Ensure to have the same CV structure and don't add extra textual headings. Just edit the Job experience contents points only.
-    '''
-    return main_prompt
-
-for jl in job_links:
-    output = start_job_crawl(jl)
-    #### These jobs were popular with other job seekers
-    job_description = output.split('#### These jobs were popular with other job seekers')[0]
-    prompt = create_prompt(job_description, master_cv_content)
-    output = groq_api.groq_api_call(prompt = prompt)
-    print(output)
-    print(f'--- ' * 30)
-    time.sleep(10)
-    break 
-# print(job_links)
+output  = '''
+{
+  "full_time_experience_points": [
+    "Designed and deployed an AI‑driven medical product scanning solution, cutting documentation time by up to 85% (from 20 s to 3 s) and boosting operating‑room efficiency",
+    "Built scalable Python data pipelines for image ingestion, cleaning and transformation; automated reporting dashboards that reduced cloud API costs by 65% while delivering real‑time accuracy metrics",
+    "Implemented object‑detection and OCR models reaching 92% extraction accuracy and integrated them via FastAPI, supporting >10 k daily scans with high reliability",
+    "Led cross‑functional delivery by coordinating client requirements, DevOps, backend and frontend teams, ensuring on‑time launch and maintaining data quality and performance"
+  ],
+  "internship_experience_points": [
+    "Engineered a product onboarding pipeline that accelerated computer‑vision model training from several hours to 10‑15 minutes while preserving ~80% accuracy through ensemble and few‑shot learning techniques",
+    "Developed a real‑time inventory visibility system using Python/Flask; decreased stock‑out incidents by 45% by providing up‑to‑the‑minute stock dashboards for managers",
+    "Automated data extraction, preprocessing and model orchestration, cutting manual data‑preparation effort by 70% and enabling rapid model iteration",
+    "Collaborated with data‑engineering and analytics teams to create monitoring dashboards that highlighted model drift and usage trends, informing continuous improvement"
+  ]
+}'''
+print(output)
+llm_json_output = json.loads(output)
+create_cv_docx(llm_json_output,  file_name = f"wtf.docx")

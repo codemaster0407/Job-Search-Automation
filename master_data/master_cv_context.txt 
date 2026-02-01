@@ -11,9 +11,13 @@ GPA: 8.33/10
 WORK EXPERIENCE 
 Associate AI Engineer | Techolution, India | June 2024 - July 2025 
 Designed and deployed a medical product scanning station using Artificial Intelligence and FastAPI backend, reducing nurses’ documentation time in operating rooms from 15-20 seconds to 1.5-5 seconds (75% efficiency) - from requirement gathering to deployment and visualisation
-Reached 92% accuracy in identifying and reading key information from medical products using object detection, LLMs, VLLMs and OCR
+Reached 92% accuracy in identifying and reading key information from medical products using object detection, LLMs, Vision Language Models and OCR
 Built data analytics dashboards and automated reports to monitor accuracy, scanning times, and utilisation trends, helping stakeholders generate insights and save 65% of the cloud API costs for the organization
 Demonstrated strategic delivery and leadership by engaging directly with clients to gather AI requirements, coordinating cross-functional collaboration between DevOps, backend, and frontend teams to ensure timely and successful project outcomes
+Finetuning OCR Models (Paddle-OCR) for recognising hand written text for US client documents for easier digitalisation saving 85% of their manual time.
+Predictive Modeling using Machine Learning 
+
+
 AI Intern, AI team | Techolution, India| November 2023 – June 2024 
 Led the development of a product onboarding platform leveraging data engineering techniques for computer vision models, reducing model training time from hours to 10–15 minutes while maintaining consistent accuracy of around 80% through an ensemble of base and few-shot learning models
 Developed a smart rack inventory system that enabled real-time stock visibility and improved supply management efficiency, allowing inventory managers to make informed decisions on stock maintenance using a Python and Flask-based backend (reduce 45% of inventory shortage)
@@ -21,10 +25,34 @@ MENTORING EXPERIENCE
 Mentor | Warwick Coding AI Society | October 2025 - Present
 Providing guidance to undergraduate students on building Python Backend and Computer Vision applications.
 SKILLS AND CERTIFICATIONS
-Skills: Python, R, Docker, FastAPI, Flask, LLMs, Kubernetes, Git, PowerBI, Tableau
+Skills: Python, R, Docker, FastAPI, Flask, LLMs, Kubernetes, Git, PowerBI, Tableau, Tensorflow, Pytorch
 Databases: SQL, Mongo DB, Firebase
 Cloud : AWS, Google Cloud Computing
 Certifications: Google Cloud Certified Professional Machine Learning Engineer 
 AWARDS AND ACHIEVEMENTS
 NVIDIA ICETCI Hackathon: 3rd Place, NVIDIA ICETCI Hackathon 2023 – Out of 30 teams all over India. Published a research paper in ICETCI 2023 on data extraction, pre-processing and ensemble training of LLMs
 Merit Award | Mahindra University: Awarded scholarship for academic excellence for year 2021 & 2022
+
+
+
+Projects 
+
+Jun 2024 - Jul 2025 · 1 yr 2 mosJun 2024 to Jul 2025 · 1 yr 2 mos
+• Designed and deployed an AI-powered medical product scanning station end-to-end using Computer Vision and FastAPI, reducing nurses’ documentation time in operating rooms from 15–20 seconds to 1.5–5 seconds (~75% efficiency gain) — from requirement gathering to deployment and visualization.
+ • Achieved 92% accuracy in identifying and extracting critical information from medical products using object detection (YOLO), OCR, LLMs, and VLLMs.
+ • Built end-to-end AI pipelines for medical product recognition and inventory tracking, customizing YOLO-based object detection models based on client and operational requirements.
+ • Implemented robust OCR pipelines using Cloud OCR and PaddleOCR, including text preprocessing, regex-based cleaning, and structured data extraction for accurate inventory updates.
+ • Developed an automated real-time scanning pipeline using motion detection and custom algorithms to capture products and dynamically update scan status on the UI.
+ • Customized, trained, and fine-tuned U²-Net for medical product segmentation, optimizing performance for real-world medical environments.
+ • Built and maintained training, evaluation, and testing pipelines for YOLO and U²-Net computer vision models.
+ • Designed and deployed microservices for computer vision models, managing containerization and updates using Docker and Kubernetes.
+ • Wrote custom scripts to enable GPU and camera hardware access within Docker containers, updating Kubernetes YAML configurations to support production workloads.
+ • Implemented asynchronous programming in Python, enabling parallel task execution and reducing processing time by ~25%.
+ • Developed custom Python backend business logic to support complex business rules and seamless user workflows.
+ • Built data analytics dashboards and automated reports to monitor accuracy, scanning time, and utilization trends, helping stakeholders make data-driven decisions and reduce cloud API costs by 65%.
+
+ Internship full experience 
+ 	•	Designed and built custom ML training pipelines to enable rapid onboarding of new products into computer vision models using few-shot detection, reducing model deployment time by 3–4 hours per product.
+	•	Leveraged newly collected and annotated data to continuously retrain and improve base models, resulting in measurable gains in model accuracy and robustness.
+	•	Developed a custom PaddleOCR pipeline for handwritten text recognition, achieving ~85% accuracy on real client data through preprocessing and model tuning.
+	•	Trained and deployed YOLO-based object detection and OCR models to identify product tags for a US-based client, automating inventory updates and reducing manual processing time by ~35%

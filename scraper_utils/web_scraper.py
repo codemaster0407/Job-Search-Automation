@@ -179,37 +179,3 @@ def save_scraped_data(data, output_file=None):
     print(f"📝 Saved text to: {txt_file}")
     
     return saved_files
-
-
-# Example usage
-if __name__ == "__main__":
-    # Test URL
-    test_url = "https://www.irishjobs.ie/ShowJob.aspx?Id=110382341"
-    
-    print("="*80)
-    print("URL SCRAPER - Choose your method:")
-    print("="*80)
-    print()
-    
-    # Method 1: Simple (fast)
-    print("METHOD 1: Simple HTTP Request")
-    print("-"*80)
-    result = scrape_url_simple(test_url)
-    if result:
-        print(f"\n📊 Preview of scraped text (first 500 chars):")
-        print(result['text'][:500])
-        print("...")
-    print()
-    
-    # Method 2: Selenium (handles JS)
-    print("\nMETHOD 2: Selenium (JavaScript-enabled)")
-    print("-"*80)
-    result_selenium = scrape_url_selenium(test_url)
-    if result_selenium:
-        print(f"\n📊 Preview of scraped text (first 500 chars):")
-        print(result_selenium['text'][:500])
-        print("...")
-    print()
-    
-    # Optional: Save to files
-    # save_scraped_data(result_selenium, "job_description")

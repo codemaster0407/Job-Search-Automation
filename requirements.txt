@@ -46,3 +46,4 @@ google-genai
 python-docx
 crawl4ai
 groq
+streamlit

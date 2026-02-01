@@ -121,8 +121,14 @@ def create_cv_docx(llm_output, file_name):
     # ---------- MENTORING ----------
     para("MENTORING EXPERIENCE", bold=True, space_before=8, space_after=6)
     para("Mentor | Warwick Coding AI Society | Oct 2025 – Present", bold=True)
-    b = bullet()
-    b.add_run("Guiding undergraduate students in Python backend and computer vision application development")
+    mentor_experience = llm_output.get('mentoring_experience', None)
+    if mentor_experience == None:
+        b = bullet()
+        b.add_run("Guiding undergraduate students in Python backend and computer vision application development")
+    else:
+        for pt in mentor_experience:
+            b = bullet()
+            b.add_run(pt)
 
     # ---------- SKILLS ----------
     para("SKILLS AND CERTIFICATIONS", bold=True, space_before=8, space_after=6)
@@ -146,24 +152,58 @@ def create_cv_docx(llm_output, file_name):
         "https://www.credly.com/badges/b9a3e1c2-30ea-4b33-8f3b-0755dbe17d5e/linked_in_profile"
     )
     para("AWARDS AND ACHIEVEMENTS", bold=True, space_before=8, space_after=4)
-    b = bullet()
-    b.add_run(
-        "Winner – 180 Degrees Consulting Warwick CIC × Enactus Warwick Consulting Case Competition (University of Warwick) "
-        "Developed a profitable, exit-ready growth and cost-optimisation strategy for a Series C $75M CCUS company, anchoring expansion in the Netherlands."
-    )
-    b = bullet()
-    b.add_run(
-        "3rd Place – NVIDIA ICETCI Hackathon (2023) – Out of 30 teams across India; "
-        "published a research paper in ICETCI 2023 on data extraction, "
-        "pre-processing and ensemble training of LLMs."
-    )
+    ach_points = llm_output.get('achievements', None)
+    if ach_points == None:
+        b = bullet()
+        b.add_run(
+            "Winner – 180 Degrees Consulting Warwick CIC × Enactus Warwick Consulting Case Competition (University of Warwick) "
+            "Developed a profitable, exit-ready growth and cost-optimisation strategy for a Series C $75M CCUS company, anchoring expansion in the Netherlands."
+        )
+        b = bullet()
+        b.add_run(
+            "3rd Place – NVIDIA ICETCI Hackathon (2023) – Out of 30 teams across India; "
+            "published a research paper in ICETCI 2023 on data extraction, "
+            "pre-processing and ensemble training of LLMs."
+        )
 
-    b = bullet()
-    b.add_run(
-        "Merit Scholarship (2021 & 2022) – Mahindra University for academic excellence, "
-        "awarded for ranking in the top 10% of the cohort."
-    )
+        b = bullet()
+        b.add_run(
+            "Merit Scholarship (2021 & 2022) – Mahindra University for academic excellence, "
+            "awarded for ranking in the top 10% of the cohort."
+        )
+    else:
+        for x in ach_points:
+            b = bullet()
+            b.add_run(x)
 
     
+    # ---------- Save ----------
+    doc.save(file_name)
+
+
+def create_cover_letter_docx(cover_letter_text, file_name):
+    doc = Document()
+
+    # ---------- Global font ----------
+    style = doc.styles['Normal']
+    style.font.name = 'Arial'
+    style.font.size = Pt(11)
+
+    # ---------- Margins ----------
+    section = doc.sections[0]
+    section.left_margin = Pt(36)
+    section.right_margin = Pt(36)
+    section.top_margin = Pt(36)
+    section.bottom_margin = Pt(36)
+
+    # ---------- Cover Letter Content ----------
+    paragraphs = cover_letter_text.split('\n')
+    for para_text in paragraphs:
+        p = doc.add_paragraph(para_text)
+        pf = p.paragraph_format
+        pf.space_after = Pt(6)
+        pf.line_spacing = 1.15
+        pf.line_spacing_rule = WD_LINE_SPACING.MULTIPLE
+
     # ---------- Save ----------
     doc.save(file_name)

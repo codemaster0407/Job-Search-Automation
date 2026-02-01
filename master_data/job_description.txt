@@ -1,0 +1,35 @@
+About the job
+About InterDigital
+
+InterDigital is a global research and development company focused primarily on wireless, video, artificial intelligence (“AI”), and related technologies. We design and develop foundational technologies that enable connected, immersive experiences in a broad range of communications and entertainment products and services. We license our innovations worldwide to companies providing such products and services, including makers of wireless communications devices, consumer electronics, IoT devices, cars and other motor vehicles, and providers of cloud-based services such as video streaming. As a leader in wireless technology, our engineers have designed and developed a wide range of innovations that are used in wireless products and networks, from the earliest digital cellular systems to 5G and today’s most advanced Wi-Fi technologies. We are also a leader in video processing and video encoding/decoding technology, with a significant AI research effort that intersects with both wireless and video technologies. Founded in 1972, InterDigital is listed on Nasdaq.
+
+InterDigital is a registered trademark of InterDigital, Inc.
+
+For more information, visit: www.interdigital.com.
+
+Summary
+
+As an applied ML Multimedia Research Intern, you will work closely with researchers and engineers to address cutting-edge challenges in the field. You will receive dedicated technical mentorship and guidance, ensuring continuous learning and skill development throughout the internship. Each day will provide new opportunities to expand your technical expertise while deepening your understanding of the multimedia domain. Beyond technical growth, this internship will allow you to build valuable connections with domain experts and industry professionals. Depending on the outcomes of your work, you may also have the opportunity to contribute to publications, further advancing your academic and professional profile.
+
+Responsibilities
+
+Survey the recent advances of state-of-the-art ML-based media compression technologies
+Conduct literature reviews and stay up to date with state-of-the-art techniques in ML-based media compression, multimedia coding, and communication systems.
+Explore existing ML-compression tools, codecs, the flexible use of ML models for these tools and codecs and assess the feasibility of NN model discovery in multimedia pipelines.
+Prototype and implement integration of AI-based media compression methods into multimedia communication frameworks (e.g., FFMPEG, Dash.js, Gstremer etc).
+Benchmark and evaluate results in terms of quality, efficiency, latency, and scalability.
+Work closely with domain experts, research scientists, and engineers to refine technical approaches.
+
+Qualifications
+
+Currently pursuing master or doctoral degree in Machine learning, multimedia, telecommunication
+Strong background in machine learning and deep learning frameworks (e.g., PyTorch, TensorFlow)
+Experience in Python/C++ programming and working with research prototypes.
+Preferred knowledge on multimedia frameworks
+Preferred experience with multimedia libraries and frameworks such as libav, ffmpeg, GStreamer etc.
+Familiarity with signal processing, computer vision, or audio/video communication systems.
+Knowledge of neural compression methods (e.g., learned image/video compression, generative models for media coding) is a plus.
+Understanding of multimedia coding standards (e.g., H.264/AVC, H.265/HEVC, AV1, VVC) and compression techniques is a plus
+Problem solving skills
+Ability to collaborate with others
+Preferrable demonstrate expertise with proven publication or research work

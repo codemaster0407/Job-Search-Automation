@@ -8,62 +8,87 @@ from utils.cv_save import save_cv
 
 def create_prompt(job_description, master_cv_content):
 
-    main_prompt = f'''
-    You are an expert job application assistant. Based on the following job description,
-    Job Description : {job_description}, create a tailored CV for the applicant. The applicant's master CV contains the following information: {master_cv_content}.
-    Please ensure the CV highlights relevant skills and experiences that align with the job requirements. 
-    The applicant follows the structure of work done and the achievements in a quantitve manner. 
-    (e.g., "Increased sales by 20%" rather than just "Responsible for sales").
-    Provide the final CV text output. Ensure to have the same CV structure and don't add extra textual headings.
-    Just edit the Job experience contents points only.
+    main_prompt  = f'''
+        You are an expert job application assistant. Based on the following job description,
+        Job Description: {job_description}, create a tailored CV for the applicant. The applicant's master CV contains the following information: {master_cv_content}
 
-    Try to align the job experience points to the job description provided to maximise my selectability for the job role using my full experience and select only relevant experience for the job role.
-    Moreover, ensure the CV is concise and don't add tech stack or skills section if I don't possess those skills.
-    Try to maximise the alignment of the CV to the job description provided without adding skills or experiences I don't have.
-    Ensure to keep the maximum number of points in the experience sections as 4 points for full time and 3 points for internship experience. 1 point for mentorship experience.
-    I have divided the skills into three sections : Skills, Databases, Cloud. 
-    Make sure to keep those sections as it is without adding any extra skills I don't have and rearrange them in the priority based on the job description. If the skill is not required for the job role, make sure to remove it from the output.
-    I'm a recent graduate so ensure to fill the job_seniority_level as "Entry Level" , "Graduate Scheme" , "Experienced" or "Internship".
-    If the job requires more than 2 years of experience, mark it as "Experienced", if it requires 1-2 years of experience, mark it as "Graduate Scheme",
-    if it requires less than 1 year of experience, mark it as "Entry Level".
+        Use UK English to fill the CV contents. 
 
+        Create the CV in a style optimized for ATS, following VMock recommendations. Focus only on editing the job experience content points. Do not add extra textual headings or sections
 
-    For the same Job role , create a customised Cover letter with proper formatting in a single textual format which I can access in the JSON object with proper formatting
+        Guidelines:
 
-    Even for the achievements, only choose the relevant achievements for the job role
-    Return the output in the following format as a JSON Object 
-        "full_time_experience_points": [
-            "Point 1",
-            "Point 2",
-            ...
-        ],
-        "internship_experience_points": [
-            "Point 1",
-            "Point 2",
-            ...
-        ], 
-        "skills" : [
-            "Skill 1",
-            "Skill 2",
-            ...
-        ],
-        "databases" : [
-            "Database 1",
-            "Database 2",
-            ...
-        ], 
-        "mentoring_experience" : [
-        "point 1"
-        ], 
-        "achievements" : [
-        "achievement 1", 
-        "achievement 2"
-        ]
+        1. Experience Points:
+        - Each point should be action-oriented, demonstrating analytical ability, communication, leadership, teamwork, and initiative
+        - Highlight measurable impact wherever possible (e.g., "Increased sales by 20%" instead of "Responsible for sales")
+        - Avoid passive language, personal pronouns, filler words, and repetitive verbs
+        - No full-stops at the end of each point
+        - Use diverse strong verbs to convey ownership, achievement, and results
+        - Align experience points closely with the job description to maximize selectability
+        - Full-time experience: max 4-5 points
+        - Internship experience: max 3-4 points
+        - Mentoring experience: 1 point
 
-        "cover_letter" : "<Created Cover Letter for the Job Role>",
-        "job_title": "<Extracted Job Role Title from the job description>", 
-        "company_name": "<Extracted Company Name from the job description>",
-        "job_seniority_level": "<Extracted Seniority Level from the job description>"
+        2. Skills:
+        - Keep the three sections as is: Skills, Databases, Cloud
+        - Include only relevant skills mentioned in the experience points
+        - Rearrange skills in priority order based on the job description
+        - Remove any skill not applicable to the job role
+
+        3. Achievements:
+        - Include only relevant achievements for the job role
+        - Highlight quantifiable or high-impact achievements
+        - Do not mention my Google ML certification
+        - Do not mention about any merit scholarships
+
+        4. Job Seniority Level:
+        - If job requires >2 years experience → "Experienced"
+        - If job requires 1-2 years experience → "Graduate Scheme"
+        - If job requires <1 year experience → "Entry Level" or "Internship" as appropriate
+
+        5. Cover Letter:
+        - Create a tailored cover letter for the same job role
+        - Ensure proper formatting in a single textual format suitable for JSON output
+
+        6. Output Format (as a dictionary with following keys):
+        
+            "full_time_experience_points": [
+                "Point 1",
+                "Point 2",
+                ...
+            ],
+            "internship_experience_points": [
+                "Point 1",
+                "Point 2",
+                ...
+            ],
+            "skills": [
+                "Skill 1",
+                "Skill 2",
+                ...
+            ],
+            "databases": [
+                "Database 1",
+                "Database 2",
+                ...
+            ],
+            "cloud": [
+                "Cloud 1",
+                "Cloud 2",
+                ...
+            ],
+            "mentoring_experience": [
+                "Point 1"
+            ],
+            "achievements": [
+                "Achievement 1",
+                "Achievement 2"
+            ],
+            "cover_letter": "<Created Cover Letter for the Job Role>",
+            "job_title": "<Extracted Job Role Title from the job description>",
+            "company_name": "<Extracted Company Name from the job description>",
+            "job_seniority_level": "<Extracted Seniority Level from the job description>"
+    
     '''
     return main_prompt
 

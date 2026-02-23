@@ -1,0 +1,29 @@
+Full job description
+Technology
+London
+
+The D. E. Shaw group seeks an inquisitive technology enthusiast to join its Quant Systems team. This is a hands-on technical role within an engineering team responsible for high performance trading and research infrastructure.
+
+What you’ll do day-to-day
+
+Quant Systems is a global team that designs and maintains the firm’s largest compute infrastructure, which includes operating system platforms, software development tooling, high-performance computing, networking, and storage for research and trading. This engineer will have the opportunity to work on a wide variety of technology initiatives in a distributed computing environment, such as workload scheduling design and implementation, fleet management, clustered file system design and operation, software design and life cycle (SDLC), kernel and network performance tuning for low-latency and high-throughput applications, and metrics collection and data mining analysis.
+
+Who we’re looking for
+The ideal candidate will have a demonstrated interest in how technology works and should have a degree in computer science (or another related technical discipline) or comparable experience of up to five years. Proficiency in Python, Golang, Rust, or another similar language is required.
+Knowledge of Linux-based systems and networking is a plus.
+Excellent verbal and written communication skills are a must, as are superb organizational and time management abilities.
+In keeping with our firm's culture and the ever-changing nature of our work, we’re more interested in talent, curiosity, and motivation than we are in any particular skill or experience.
+
+The D. E. Shaw group is an equal opportunity employer.
+
+The applicable annual base salary or hourly rate paid to a successful applicant will be determined based on multiple factors, including without limitation the nature and extent of prior experience and educational background.
+
+European Union (EU), United Kingdom (UK), California, Hong Kong, Singapore, or Shanghai candidates should refer to the corresponding linked privacy notice.
+
+The D. E. Shaw group may collect, use, hold, transfer, and process candidates’ resumes and associated information (including personal information contained therein) for purposes reasonably related to their application, including without limitation: review and management of employment applications and supporting materials; administration and management of offers to and communication with candidates; and administration, management, and improvement of the recruiting operations of the D. E. Shaw group; and/or where reasonably required in connection with a proposed sale, spin-out, reorganization, or outsourcing of all or some of the business of the D. E. Shaw group. The D. E. Shaw group will not use such information for purposes unrelated to the foregoing, such as direct marketing of third-party products to candidates, without candidate consent. As used herein, the term “personal information” is meant to broadly describe information identifying or relating to a specific individual; it is intended to encompass “personal data,” “sensitive personal data,” and “personally identifiable information” and similar terms, as those terms are defined by law in the jurisdictions in which the D. E. Shaw group operates.
+
+The D. E. Shaw group may transfer such personal information within and outside the country and jurisdiction of the locations where the D. E. Shaw group maintains offices, to other D. E. Shaw group affiliates, to government and regulatory authorities, and to third parties which provide or may provide support and/or services to the D. E. Shaw group and for the purposes set forth above. The persons who may have access to this personal information are other employees of the D. E. Shaw group, in connection with the performance of their duties of employment, and the other parties listed above, in connection with the business of the D. E. Shaw group. (Of course, candidates will be considered for employment opportunities only in those countries in which they express interest.)
+
+The D. E. Shaw group will use reasonable care to maintain the confidentiality of personal information (including appropriate technical measures against unauthorized or unlawful processing and against accidental loss or destruction of, or damage to, such information) and will retain such data as required by applicable law or regulation. Candidates have the right to request access to, and correction of, their personal information in accordance with applicable law; any such request should be submitted to recruiting-inquiries@deshaw.com. Candidates who have submitted a resume to the D. E. Shaw group and do not wish to proceed with their applications should email cvwithdraw@deshaw.com. Personal information of candidates who have been the subject of background checks may have been transferred in accordance with applicable regulations, and any concerns with such transfers should be submitted to backgroundcheck-inquiries@deshaw.com.
+
+The D. E. Shaw group may retain candidates’ information for prospective recruiting activities, including sourcing candidates for employment opportunities and for organizing events with prospective candidates, in accordance with our internal data retention procedures. Candidates who do not agree to such future use should email recruiting-inquiries@deshaw.com.

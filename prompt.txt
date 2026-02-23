@@ -1,0 +1,84 @@
+I'm creating a CV automation tool on Python. 
+
+I want to create a streamlit application in the following format. 
+
+
+
+I want to take the following information from the user. 
+
+As I'm giving the Gitrepo for free, I use few API keys from few companies.
+
+Groq Key : Each user will provide their groq free tier API key 
+
+
+
+Utilising that, I need to call a python function in my backend functionality.
+
+
+
+Groq Key feeding is a one time use key. So once the user enters the key, call a function to save a .env function and save that key. Give me the placeholder function, I'll take care of the rest.
+
+
+
+The details needed from the user in the following format:
+
+{
+    "name" : "", 
+    "email_id" : "", 
+    "mobile" : "", 
+    "linkedin_url" : "", 
+    "github_url" : "",
+    "city": "", 
+    "country" :"", 
+    "education" :[
+        "education1" : {
+            "course_name" : "", 
+            "university_name" : "", 
+            "start_year" : "", 
+            "end_year" : "", 
+            "Modules" : ["m1", 'm2'],
+            "grade" : ""
+        }, 
+        "education2":{
+            "course_name" : "", 
+            "university_name" : "", 
+            "start_year" : "", 
+            "end_year" : "", 
+            "modules" : ["M1", "m2", ],
+            "grade" : ""
+        }
+    ], 
+    "work_experience" : {
+        "work_ex_1" : {
+            "role_name":"", 
+            "company" : "", 
+            "country" : "", 
+            "start_month" : "", 
+            "start_year": "", 
+            "end_month" : "", 
+            "end_year" : "",
+            "experience_points" :[
+                "point1", 
+                "point2" ,
+            ]
+        }
+    }, 
+
+    "skills_certifications" : {
+        "skills" : ['skill1', ...],
+        'databases' : [db1, db2, ],
+        'cloud' : [...], 
+        'certifications' : [
+            "link" : "http...", 
+            "certification_name " : ""
+        ]
+    }
+    "awards_achievements" : [
+        pt1, pt2, ....
+    ]
+}
+
+Every user might want extra sub headings like Mentoring experience, other experience
+For that create a custom add_heading button in the streamlit application and take input of headings, role_name, location, start_end_date similar to the work expereince field in the JSON 
+
+Create a robust streamlit front-end for the above use case.

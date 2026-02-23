@@ -56,16 +56,16 @@ def create_prompt(job_description, master_cv_content):
     '''
     return main_prompt
 
-for jl in job_links:
-    output = start_job_crawl(jl)
-    #### These jobs were popular with other job seekers
-    job_description = output.split('#### These jobs were popular with other job seekers')[0]
-    prompt = create_prompt(job_description, master_cv_content)
-    output = groq_api.groq_api_call(prompt = prompt)
+# for jl in job_links:
+#     output = start_job_crawl(jl)
+#     #### These jobs were popular with other job seekers
+#     job_description = output.split('#### These jobs were popular with other job seekers')[0]
+#     prompt = create_prompt(job_description, master_cv_content)
+#     output = groq_api.groq_api_call(prompt = prompt)
 
-    print(output)
-    llm_json_output = json.loads(output)
-    llm_json_output['job_link'] = jl 
-    save_cv(llm_json_output)
+#     print(output)
+#     llm_json_output = json.loads(output)
+#     llm_json_output['job_link'] = jl 
+#     save_cv(llm_json_output)
     
-    break 
+#     break 

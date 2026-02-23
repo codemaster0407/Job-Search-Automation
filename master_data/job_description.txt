@@ -1,35 +1,29 @@
-About the job
-About InterDigital
+Full job description
+Technology
+London
 
-InterDigital is a global research and development company focused primarily on wireless, video, artificial intelligence (“AI”), and related technologies. We design and develop foundational technologies that enable connected, immersive experiences in a broad range of communications and entertainment products and services. We license our innovations worldwide to companies providing such products and services, including makers of wireless communications devices, consumer electronics, IoT devices, cars and other motor vehicles, and providers of cloud-based services such as video streaming. As a leader in wireless technology, our engineers have designed and developed a wide range of innovations that are used in wireless products and networks, from the earliest digital cellular systems to 5G and today’s most advanced Wi-Fi technologies. We are also a leader in video processing and video encoding/decoding technology, with a significant AI research effort that intersects with both wireless and video technologies. Founded in 1972, InterDigital is listed on Nasdaq.
+The D. E. Shaw group seeks an inquisitive technology enthusiast to join its Quant Systems team. This is a hands-on technical role within an engineering team responsible for high performance trading and research infrastructure.
 
-InterDigital is a registered trademark of InterDigital, Inc.
+What you’ll do day-to-day
 
-For more information, visit: www.interdigital.com.
+Quant Systems is a global team that designs and maintains the firm’s largest compute infrastructure, which includes operating system platforms, software development tooling, high-performance computing, networking, and storage for research and trading. This engineer will have the opportunity to work on a wide variety of technology initiatives in a distributed computing environment, such as workload scheduling design and implementation, fleet management, clustered file system design and operation, software design and life cycle (SDLC), kernel and network performance tuning for low-latency and high-throughput applications, and metrics collection and data mining analysis.
 
-Summary
+Who we’re looking for
+The ideal candidate will have a demonstrated interest in how technology works and should have a degree in computer science (or another related technical discipline) or comparable experience of up to five years. Proficiency in Python, Golang, Rust, or another similar language is required.
+Knowledge of Linux-based systems and networking is a plus.
+Excellent verbal and written communication skills are a must, as are superb organizational and time management abilities.
+In keeping with our firm's culture and the ever-changing nature of our work, we’re more interested in talent, curiosity, and motivation than we are in any particular skill or experience.
 
-As an applied ML Multimedia Research Intern, you will work closely with researchers and engineers to address cutting-edge challenges in the field. You will receive dedicated technical mentorship and guidance, ensuring continuous learning and skill development throughout the internship. Each day will provide new opportunities to expand your technical expertise while deepening your understanding of the multimedia domain. Beyond technical growth, this internship will allow you to build valuable connections with domain experts and industry professionals. Depending on the outcomes of your work, you may also have the opportunity to contribute to publications, further advancing your academic and professional profile.
+The D. E. Shaw group is an equal opportunity employer.
 
-Responsibilities
+The applicable annual base salary or hourly rate paid to a successful applicant will be determined based on multiple factors, including without limitation the nature and extent of prior experience and educational background.
 
-Survey the recent advances of state-of-the-art ML-based media compression technologies
-Conduct literature reviews and stay up to date with state-of-the-art techniques in ML-based media compression, multimedia coding, and communication systems.
-Explore existing ML-compression tools, codecs, the flexible use of ML models for these tools and codecs and assess the feasibility of NN model discovery in multimedia pipelines.
-Prototype and implement integration of AI-based media compression methods into multimedia communication frameworks (e.g., FFMPEG, Dash.js, Gstremer etc).
-Benchmark and evaluate results in terms of quality, efficiency, latency, and scalability.
-Work closely with domain experts, research scientists, and engineers to refine technical approaches.
+European Union (EU), United Kingdom (UK), California, Hong Kong, Singapore, or Shanghai candidates should refer to the corresponding linked privacy notice.
 
-Qualifications
+The D. E. Shaw group may collect, use, hold, transfer, and process candidates’ resumes and associated information (including personal information contained therein) for purposes reasonably related to their application, including without limitation: review and management of employment applications and supporting materials; administration and management of offers to and communication with candidates; and administration, management, and improvement of the recruiting operations of the D. E. Shaw group; and/or where reasonably required in connection with a proposed sale, spin-out, reorganization, or outsourcing of all or some of the business of the D. E. Shaw group. The D. E. Shaw group will not use such information for purposes unrelated to the foregoing, such as direct marketing of third-party products to candidates, without candidate consent. As used herein, the term “personal information” is meant to broadly describe information identifying or relating to a specific individual; it is intended to encompass “personal data,” “sensitive personal data,” and “personally identifiable information” and similar terms, as those terms are defined by law in the jurisdictions in which the D. E. Shaw group operates.
 
-Currently pursuing master or doctoral degree in Machine learning, multimedia, telecommunication
-Strong background in machine learning and deep learning frameworks (e.g., PyTorch, TensorFlow)
-Experience in Python/C++ programming and working with research prototypes.
-Preferred knowledge on multimedia frameworks
-Preferred experience with multimedia libraries and frameworks such as libav, ffmpeg, GStreamer etc.
-Familiarity with signal processing, computer vision, or audio/video communication systems.
-Knowledge of neural compression methods (e.g., learned image/video compression, generative models for media coding) is a plus.
-Understanding of multimedia coding standards (e.g., H.264/AVC, H.265/HEVC, AV1, VVC) and compression techniques is a plus
-Problem solving skills
-Ability to collaborate with others
-Preferrable demonstrate expertise with proven publication or research work
+The D. E. Shaw group may transfer such personal information within and outside the country and jurisdiction of the locations where the D. E. Shaw group maintains offices, to other D. E. Shaw group affiliates, to government and regulatory authorities, and to third parties which provide or may provide support and/or services to the D. E. Shaw group and for the purposes set forth above. The persons who may have access to this personal information are other employees of the D. E. Shaw group, in connection with the performance of their duties of employment, and the other parties listed above, in connection with the business of the D. E. Shaw group. (Of course, candidates will be considered for employment opportunities only in those countries in which they express interest.)
+
+The D. E. Shaw group will use reasonable care to maintain the confidentiality of personal information (including appropriate technical measures against unauthorized or unlawful processing and against accidental loss or destruction of, or damage to, such information) and will retain such data as required by applicable law or regulation. Candidates have the right to request access to, and correction of, their personal information in accordance with applicable law; any such request should be submitted to recruiting-inquiries@deshaw.com. Candidates who have submitted a resume to the D. E. Shaw group and do not wish to proceed with their applications should email cvwithdraw@deshaw.com. Personal information of candidates who have been the subject of background checks may have been transferred in accordance with applicable regulations, and any concerns with such transfers should be submitted to backgroundcheck-inquiries@deshaw.com.
+
+The D. E. Shaw group may retain candidates’ information for prospective recruiting activities, including sourcing candidates for employment opportunities and for organizing events with prospective candidates, in accordance with our internal data retention procedures. Candidates who do not agree to such future use should email recruiting-inquiries@deshaw.com.

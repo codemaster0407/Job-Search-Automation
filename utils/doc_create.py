@@ -46,7 +46,7 @@ def create_cv_docx(llm_output, file_name):
         run_date = p.add_run(right_text)
         run_date.font.name = 'Arial'
         run_date.font.size = Pt(size)
-        run_date.bold = bold
+        # run_date.bold = bold
 
         return p
 
@@ -78,7 +78,7 @@ def create_cv_docx(llm_output, file_name):
         pf.line_spacing_rule = WD_LINE_SPACING.MULTIPLE
         return p
 
-    def add_hyperlink(paragraph, text, url, size=11):
+    def add_hyperlink(paragraph, text, url, size=10.5):
         part = paragraph.part
         r_id = part.relate_to(
             url,
@@ -110,17 +110,17 @@ def create_cv_docx(llm_output, file_name):
          align=WD_ALIGN_PARAGRAPH.CENTER, space_after=6)
 
     contact = para("", size=9, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=10)
-    contact.add_run("E: schaitanya0407@gmail.com | M: +44 7733056417 | ")
-    add_hyperlink(contact, "LinkedIn", "https://linkedin.com/in/chaitanyasrikanth", size=11)
-    contact.add_run(" | ")
-    add_hyperlink(contact, "Git", "https://github.com/codemaster0407", size=11)
+    contact.add_run("E: schaitanya0407@gmail.com | M: +44 77330 56417 | ")
+    add_hyperlink(contact, "L: https://linkedin.com/in/chaitanyasrikanth", "https://linkedin.com/in/chaitanyasrikanth", size=10.5)
+    # contact.add_run(" | ")
+    # add_hyperlink(contact, "Git", "https://github.com/codemaster0407", size=10.5)
     contact.add_run(" | Coventry, UK")
 
     # ---------- EDUCATION ----------
     para("EDUCATION & QUALIFICATIONS", bold=True, space_before=6, space_after=6)
     para_with_date(
         "MSc in Business Analytics | Warwick Business School, UK",
-        "Sep 2025 – Present",
+        "September 2025 – August 2026",
         bold=True
     )
     b = bullet()
@@ -132,7 +132,7 @@ def create_cv_docx(llm_output, file_name):
 
     para_with_date(
         "Bachelors of Technology in Artificial Intelligence | Mahindra University, India",
-        "Sep 2020 – Aug 2024",
+        "September 2020 – August 2024",
         bold=True
     )
     b = bullet()
@@ -152,7 +152,7 @@ def create_cv_docx(llm_output, file_name):
     para("WORK & LEADERSHIP EXPERIENCE", bold=True, space_before=6, space_after=6)
     para_with_date(
         "Associate AI Engineer | Techolution, India",
-        "Jun 2024 – Jul 2025",
+        "June 2024 – July 2025",
         bold=True
     )   
 
@@ -162,7 +162,7 @@ def create_cv_docx(llm_output, file_name):
 
     para_with_date(
         "AI Intern| Techolution, India",
-        "Jun 2024 – Jul 2025",
+        "November 2023 – June 2024",
         bold=True
     )
 
@@ -174,7 +174,7 @@ def create_cv_docx(llm_output, file_name):
     para("EXTRA-CURRICULAR EXPERIENCE", bold=True, space_before=8, space_after=6)
     para_with_date(
         "Mentor | Warwick Coding Society, UK",
-        "Jun 2024 – Jul 2025",
+        "October 2025 – December 2025",
         bold=True
     )
     mentor_experience = llm_output.get('mentoring_experience', None)
@@ -204,7 +204,7 @@ def create_cv_docx(llm_output, file_name):
     ach_points = llm_output.get('achievements', None)
 
     b = bullet()
-    b.add_run("Certification: ").bold = True
+    b.add_run("Certification: ").bold = False
     add_hyperlink(
         b,
         "Google Cloud Certified Professional Machine Learning Engineer",

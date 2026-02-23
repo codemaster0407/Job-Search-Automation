@@ -32,8 +32,8 @@ def save_cv(json_output):
     
     print(f'JSON Dumped to {os.path.join(job_dir, "job_metadata.json")}')
 
-    os.remove(file_name)
-    os.remove(cv_file_name)
+    # os.remove(file_name)
+    # os.remove(cv_file_name)
 
 
     return file_name 

@@ -184,6 +184,8 @@ LOG                  = False
 | Library | Purpose |
 |---|---|
 | `groq` | LLM API for CV generation |
+| `python-docx` | `.docx` file creation |
+| `streamlit` | Experimental UI |
 | `python-dotenv` | Environment variable management |
 | `requests` / `selenium` | Job board scraping |
 

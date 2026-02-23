@@ -1,7 +1,7 @@
 import os
 import pandas as pd 
 from scraper_utils.web_scraper import scrape_url_auto
-from llm_call import main 
+from llm_call import hugging_face_call 
 import Config 
 
 def read_master_csv_contents(txt_file_path):
@@ -49,7 +49,7 @@ def job_description_scrape(dataframe):
         '''
         
         print("🤖 Extracting job description with LLM...")
-        job_description_text = main.call_llm(prompt_html_job_description)
+        job_description_text = hugging_face_call.call_llm(prompt_html_job_description)
         print(f"✅ Job description extracted ({len(job_description_text)} chars)\n")
 
         prompt = f'''
@@ -63,6 +63,6 @@ def job_description_scrape(dataframe):
         Ensure not to change the CV format content with lines. 
         
         '''
-        job_description_refinement = main.call_llm(prompt)
+        job_description_refinement = hugging_face_call.call_llm(prompt)
         print(job_description_refinement)
         

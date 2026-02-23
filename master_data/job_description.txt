@@ -1,29 +1,61 @@
-Full job description
-Technology
-London
+Data Scientist
+Just Eat Takeaway.com  London, England, United Kingdom
+1 week ago   Over 200 applicants
+  
+See who Just Eat Takeaway.com has hired for this role
 
-The D. E. Shaw group seeks an inquisitive technology enthusiast to join its Quant Systems team. This is a hands-on technical role within an engineering team responsible for high performance trading and research infrastructure.
+Apply 
 
-What you’ll do day-to-day
 
-Quant Systems is a global team that designs and maintains the firm’s largest compute infrastructure, which includes operating system platforms, software development tooling, high-performance computing, networking, and storage for research and trading. This engineer will have the opportunity to work on a wide variety of technology initiatives in a distributed computing environment, such as workload scheduling design and implementation, fleet management, clustered file system design and operation, software design and life cycle (SDLC), kernel and network performance tuning for low-latency and high-throughput applications, and metrics collection and data mining analysis.
 
-Who we’re looking for
-The ideal candidate will have a demonstrated interest in how technology works and should have a degree in computer science (or another related technical discipline) or comparable experience of up to five years. Proficiency in Python, Golang, Rust, or another similar language is required.
-Knowledge of Linux-based systems and networking is a plus.
-Excellent verbal and written communication skills are a must, as are superb organizational and time management abilities.
-In keeping with our firm's culture and the ever-changing nature of our work, we’re more interested in talent, curiosity, and motivation than we are in any particular skill or experience.
 
-The D. E. Shaw group is an equal opportunity employer.
+Save
 
-The applicable annual base salary or hourly rate paid to a successful applicant will be determined based on multiple factors, including without limitation the nature and extent of prior experience and educational background.
+Hungry for a challenge?
 
-European Union (EU), United Kingdom (UK), California, Hong Kong, Singapore, or Shanghai candidates should refer to the corresponding linked privacy notice.
+That’s good, because at Just Eat Takeaway.com (JET) we believe everything is possible,or, as we say, everything is on the table. We are a leading global online food delivery marketplace. Our tech ecosystem connects millions of active customers with hundreds of thousands of connected partners in countries across the globe.
 
-The D. E. Shaw group may collect, use, hold, transfer, and process candidates’ resumes and associated information (including personal information contained therein) for purposes reasonably related to their application, including without limitation: review and management of employment applications and supporting materials; administration and management of offers to and communication with candidates; and administration, management, and improvement of the recruiting operations of the D. E. Shaw group; and/or where reasonably required in connection with a proposed sale, spin-out, reorganization, or outsourcing of all or some of the business of the D. E. Shaw group. The D. E. Shaw group will not use such information for purposes unrelated to the foregoing, such as direct marketing of third-party products to candidates, without candidate consent. As used herein, the term “personal information” is meant to broadly describe information identifying or relating to a specific individual; it is intended to encompass “personal data,” “sensitive personal data,” and “personally identifiable information” and similar terms, as those terms are defined by law in the jurisdictions in which the D. E. Shaw group operates.
+Our mission? To empower every food moment around the world, whether it’s through
 
-The D. E. Shaw group may transfer such personal information within and outside the country and jurisdiction of the locations where the D. E. Shaw group maintains offices, to other D. E. Shaw group affiliates, to government and regulatory authorities, and to third parties which provide or may provide support and/or services to the D. E. Shaw group and for the purposes set forth above. The persons who may have access to this personal information are other employees of the D. E. Shaw group, in connection with the performance of their duties of employment, and the other parties listed above, in connection with the business of the D. E. Shaw group. (Of course, candidates will be considered for employment opportunities only in those countries in which they express interest.)
+customer service, coding or couriers.
 
-The D. E. Shaw group will use reasonable care to maintain the confidentiality of personal information (including appropriate technical measures against unauthorized or unlawful processing and against accidental loss or destruction of, or damage to, such information) and will retain such data as required by applicable law or regulation. Candidates have the right to request access to, and correction of, their personal information in accordance with applicable law; any such request should be submitted to recruiting-inquiries@deshaw.com. Candidates who have submitted a resume to the D. E. Shaw group and do not wish to proceed with their applications should email cvwithdraw@deshaw.com. Personal information of candidates who have been the subject of background checks may have been transferred in accordance with applicable regulations, and any concerns with such transfers should be submitted to backgroundcheck-inquiries@deshaw.com.
+About This Role
 
-The D. E. Shaw group may retain candidates’ information for prospective recruiting activities, including sourcing candidates for employment opportunities and for organizing events with prospective candidates, in accordance with our internal data retention procedures. Candidates who do not agree to such future use should email recruiting-inquiries@deshaw.com.
+Join our Customer Data Science (CDS) team and build the engine that powers our customer experience. You won’t just tweak existing models; you will deploy ML and AI solutions that shape how millions of users discover our apps. Backed by a state-of-the-art ML platform and some of the richest datasets in the industry, this is your chance to move beyond proof-of-concepts and see your work drive real-world impact.
+
+These Are Some Ingredients To The Role
+
+Impact at Scale: Your algorithms will solve complex ranking and search problems, instantly affecting the user journey for millions of customers.
+Cutting-Edge Tech: Pioneer the integration of Generative AI, Large Language Models, and real-time features into our foundation models and search and recommendation engines.
+Autonomy: We trust you to lead well-defined assignments independently, owning projects from conception to production.
+Growth Culture: Work alongside highly skilled colleagues in an ambitious, diverse team that prioritizes your development and career progression.
+Build & Deploy: Take a hands-on role in exploring data and building training pipelines to ensure models are scalable, robust, and solve real business problems.
+Innovate with GenAI: Apply Generative AI approaches to create hyper-personalized experiences in our apps.
+Drive Decisions: Partner with stakeholders to transform business needs into actionable methodologies, using your evaluations to influence product strategy.
+Engineer for Success: Collaborate with Data and ML Engineers to enhance pipelines and apply MLOps best practices across the model lifecycle
+
+What will you bring to the table?
+
+The Experience: Hands-on data science experience with a track record of building ML/AI solutions that drive quantifiable business value.
+Strong Foundations: A solid grasp of data mining, feature engineering, modeling, and evaluation specifically within the search and recommendations domain.
+The GenAI Edge: Practical experience applying Large Language Models (LLMs) and Vector Search techniques (e.g., semantic retrieval, embeddings).
+Evidence-Driven: The ability to design and evaluate both ML models and LLMs in offline and online experiments.
+The Toolkit: Fluent in Python with the ability to write clean, testable code that integrates seamlessly with engineering workflows.
+SQL Mastery: Expert navigation of complex data warehouses (BigQuery) to wrangle huge datasets without hand-holding.
+The Mindset: An analytical problem solver who values simplicity, brings clarity to ambiguous questions, and communicates complex insights effectively to any audience.
+
+At JET, This Is On The Menu
+
+Our teams forge connections internally and work with some of the best-known brands on the planet, giving us truly international impact in a dynamic environment.
+
+Fun, fast-paced and supportive, the JET culture is about movement, growth and about celebrating every aspect of our JETers. Thanks to them we stay one step ahead of the competition.
+
+Inclusion, Diversity & Belonging
+
+No matter who you are, what you look like, who you love, or where you are from, you can find your place at Just Eat Takeaway.com. We’re committed to creating an inclusive culture, encouraging diversity of people and thinking, in which all employees feel they truly belong and can bring their most colourful selves to work every day.
+
+What else is cooking?
+
+Want to know more about our JETers, culture or company? Have a look at our career site where you can find people's stories, blogs, podcasts and more JET morsels.
+
+Are you ready to take your seat? Apply now!
